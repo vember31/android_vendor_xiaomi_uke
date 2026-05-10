@@ -1,0 +1,29 @@
+{
+    "SENSORNAME_ROLEID_MAP":[
+        {
+            "sensorName": "o82_ofilm_ov13b10_wide_i",
+            "roleID": 0
+        },
+        {
+            "sensorName": "o82_ofilm_ov13b10_bl24sa64_wide_i_eeprom",
+            "roleID": 0
+        },
+        {
+            "sensorName": "o82_ofilm_ov13b10_cn3927v_wide_i_actuator",
+            "roleID": 0
+        },
+        {
+            "sensorName": "o82_aac_ov08d10_front_i",
+            "roleID": 1
+        },
+        {
+            "sensorName": "o82_aac_ov08d10_gt24p64e_front_i_eeprom",
+            "roleID": 1
+        }
+    ],
+
+    "TOMBSTONE_FUNCTION":{
+        "isEnable": true,
+        "fileNumber": 20
+    }
+}
