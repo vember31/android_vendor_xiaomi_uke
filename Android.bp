@@ -5,6 +5,7 @@
 soong_namespace {
     imports: [
         "device/xiaomi/sm8635-common",
+        "hardware/qcom-caf/sm8650",
         "hardware/xiaomi",
         "vendor/xiaomi/sm8635-common",
     ],
@@ -3542,6 +3543,31 @@ cc_prebuilt_library_shared {
     },
     compile_multilib: "64",
     relative_install_path: "hw",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libRecordCNN",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libRecordCNN.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libm",
+                "libc++_shared",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
     prefer: true,
     soc_specific: true,
 }

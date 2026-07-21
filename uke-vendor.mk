@@ -686,6 +686,7 @@ PRODUCT_PACKAGES += \
     libdepthmapwrapper_secure \
     libmicamvendorcustom \
     camera.qcom.sm8650 \
+    libRecordCNN \
     vendor.xiaomi.sensor.camera-V1-ndk \
     com.qti.actuator.o82_ofilm_ov13b10_cn3927v_wide_i_actuator \
     com.qti.eeprom.o82_aac_ov08d10_gt24p64e_front_i_eeprom \
