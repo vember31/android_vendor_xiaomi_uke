@@ -757,6 +757,4 @@ PRODUCT_PACKAGES += \
     ispv4_setpcie_speed \
     ispv4_spi_rw \
     ispv4_spi_st \
-    ispv4_utils_lspci \
-    ispv4_utils_setpci \
     ispv4_utils_xxd
