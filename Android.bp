@@ -13,6 +13,7 @@ soong_namespace {
 
 cc_prebuilt_library_shared {
     name: "com.mi.node.dlengine",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -70,6 +71,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.mi.node.mawcommon",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -103,6 +105,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.mi.node.mawsaliency",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -161,6 +164,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.mi.node.mimovie",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -193,6 +197,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.mi.node.mioisverify",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -226,6 +231,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.mi.node.videobokeh",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -283,6 +289,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.mi.node.videofilter",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -340,6 +347,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.eisv2",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -370,6 +378,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.eisv3",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -400,6 +409,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.hvx.addconstant",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -427,6 +437,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.hvx.binning",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -454,6 +465,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.hwcfg.bps",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -508,6 +520,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.hwcfg.ife",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -562,6 +575,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.hwcfg.ipe",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -616,6 +630,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.afbfusion",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -647,6 +662,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.aon",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -703,6 +719,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.customhwnode",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -734,6 +751,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.depth",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -788,6 +806,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.depthprovider",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -852,6 +871,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.dewarp",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -909,6 +929,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.dummydepth",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -941,6 +962,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.dummyrtb",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -971,6 +993,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.dummysat",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1001,6 +1024,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.eisv2",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1065,6 +1089,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.eisv3",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1129,6 +1154,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.evadepth",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1191,6 +1217,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.evs",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1221,6 +1248,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.fcv",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1254,6 +1282,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.formatconversion",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1285,6 +1314,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.gme",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1350,6 +1380,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.gpu",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1383,6 +1414,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.gyrornn",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1447,6 +1479,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.hdr10pgen",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1499,6 +1532,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.hdr10phist",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1550,6 +1584,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.hdr10plushist",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1584,6 +1619,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.hdr10plusmeta",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1622,6 +1658,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.itofpreprocess",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1676,6 +1713,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.memcpy",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1706,6 +1744,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.ml",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1758,6 +1797,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.mlinference",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1809,6 +1849,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.muxer",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1840,6 +1881,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.pixelstats",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1890,6 +1932,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.seg",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1955,6 +1998,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.stich",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -1985,6 +2029,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.swaidenoiser",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2021,6 +2066,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.swbestats",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2057,6 +2103,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.swec",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2108,6 +2155,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.swfusion",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2144,6 +2192,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.swhme",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2181,6 +2230,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.swlsc",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2217,6 +2267,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.swmctf",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2253,6 +2304,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.swpdpc",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2289,6 +2341,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.swpreprocess",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2319,6 +2372,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.swregistration",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2368,6 +2422,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.swvrt",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2404,6 +2459,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.aec",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2435,6 +2491,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.aecwrapper",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2465,6 +2522,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.aecxcore",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2497,6 +2555,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.af",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2528,6 +2587,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.afc",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2559,6 +2619,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.afd",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2590,6 +2651,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.afwrapper",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2620,6 +2682,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.asd",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2650,6 +2713,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.awb",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2681,6 +2745,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.awbr",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2712,6 +2777,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.cnndriver",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2760,6 +2826,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.haf",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2792,6 +2859,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.hafoverride",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2822,6 +2890,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.localhistogram",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2852,6 +2921,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.pdlib",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2883,6 +2953,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.pdlibsony",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2913,6 +2984,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.pdlibwrapper",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2943,6 +3015,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.roimixer",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -2974,6 +3047,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.roimixerlib",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3004,6 +3078,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.statsgenerator",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3034,6 +3109,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.stats.tracker",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3067,6 +3143,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qtistatic.stats.aec",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3098,6 +3175,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qtistatic.stats.af",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3129,6 +3207,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qtistatic.stats.awb",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3160,6 +3239,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qtistatic.stats.pdlib",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3191,6 +3271,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.node.gme",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3225,6 +3306,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.node.misv2",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3259,6 +3341,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.node.misv3",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3293,6 +3376,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcamxevainterface",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3344,6 +3428,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdepthmapwrapper_itof",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3396,6 +3481,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libdepthmapwrapper_secure",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3448,6 +3534,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libmicamvendorcustom",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3481,6 +3568,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "camera.qcom.sm8650",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3549,6 +3637,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libRecordCNN",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3574,6 +3663,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.sensor.camera-V1-ndk",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3599,6 +3689,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.actuator.o82_ofilm_ov13b10_cn3927v_wide_i_actuator",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3653,6 +3744,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.eeprom.o82_aac_ov08d10_gt24p64e_front_i_eeprom",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3707,6 +3799,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.eeprom.o82_ofilm_ov13b10_bl24sa64_wide_i_eeprom",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3761,6 +3854,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.sensor.o82_aac_ov08d10_front_i",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3813,6 +3907,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.sensor.o82_ofilm_ov13b10_wide_i",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3865,6 +3960,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.jigan.node.videobokeh",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3922,6 +4018,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.mi.node.aiasd",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -3986,6 +4083,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.mi.node.facealign",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4023,6 +4121,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.mi.node.facecenter",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4056,6 +4155,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.mi.node.gpu3rd",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4089,6 +4189,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.mi.node.realtimebokeh",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4122,6 +4223,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.mi.node.rearvideo",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4180,6 +4282,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.mi.node.singlebokeh",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4213,6 +4316,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.mi.node.tsskinbeautifier",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4253,6 +4357,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.mi.node.videonight",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4312,6 +4417,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.intelligentfocus",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4348,6 +4454,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.node.ldc",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4381,6 +4488,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libchxlogicalcameratable",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4434,6 +4542,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.GestureEffects",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4471,6 +4580,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.anchor",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4508,6 +4618,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.arcsoftsll",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4545,6 +4656,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.depurple",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4578,6 +4690,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.filter",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4615,6 +4728,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.frontbokeh",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4649,6 +4763,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.gainmap",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4683,6 +4798,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.gainmapPostProc",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4717,6 +4833,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.hdr",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4752,6 +4869,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.jpegrAggr",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4789,6 +4907,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.ldc",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4822,6 +4941,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.mawaiie",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4858,6 +4978,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.memcpy",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4890,6 +5011,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.miaideblur",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4923,6 +5045,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.movieeffect",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4955,6 +5078,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.offlinepostproc",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -4989,6 +5113,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.pixman",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -5025,6 +5150,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.portraitrepair",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -5058,6 +5184,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.simulation",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -5090,6 +5217,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.sr",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -5124,6 +5252,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.supermoon",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -5159,6 +5288,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.swflip",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -5191,6 +5321,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.swjpegencode",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -5226,6 +5357,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.tsskinbeautifier",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -5262,6 +5394,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.plugin.watermark",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -5304,6 +5437,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.zsl.aihighlight",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -5336,6 +5470,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.zsl.bokehrawhdr",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -5368,6 +5503,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.zsl.bokehsmartae",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -5400,6 +5536,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.zsl.default",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -5432,6 +5569,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.zsl.ell",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -5464,6 +5602,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.zsl.hdr",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -5496,6 +5635,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.zsl.leica",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -5528,6 +5668,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.zsl.mfnr",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -5560,6 +5701,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.zsl.motion",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -5592,6 +5734,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.zsl.nightmotion",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -5624,6 +5767,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.zsl.nightmotionzslbanding",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -5656,6 +5800,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.xiaomi.zsl.sr",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -5688,6 +5833,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.xiaomi.hardware.seaaudio-V1-ndk",
+    allow_undefined_symbols: true,
     owner: "xiaomi",
     strip: {
         none: true,
